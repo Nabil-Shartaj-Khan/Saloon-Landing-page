@@ -3,14 +3,14 @@
   margin: 0 auto;
   padding-top: 50px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: space-between;
   padding-bottom: 210px;
 }
 
 .container img {
   max-width: 80%;
   margin-right: 20px;
-  float: none;
   transition: transform 0.6s;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .right-side {
-  width: 100%;
+  flex-grow: 1; /* Allow the right-side content to grow as needed */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -58,7 +58,7 @@
   }
 
   .right-side {
-    width: 80%;
+    width: 80%; 
     margin: 0 auto;
   }
 }
