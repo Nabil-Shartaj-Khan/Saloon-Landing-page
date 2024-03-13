@@ -18,9 +18,7 @@ function App() {
       <ScrollAnimation>
         <About />
       </ScrollAnimation>
-      <ScrollAnimation>
-        <Service />
-      </ScrollAnimation>
+      <Service />
       <ScrollAnimation>
         <Team />
       </ScrollAnimation>
