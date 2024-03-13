@@ -5,7 +5,7 @@ import './Animation.css';
 const ScrollAnimation = ({ children }) => {
     const [ref, inView] = useInView({
         triggerOnce: true,
-        threshold: 0.4,
+        threshold: 0.2,
     });
 
     const [isVisible, setIsVisible] = useState(false);
@@ -17,7 +17,7 @@ const ScrollAnimation = ({ children }) => {
     }, [inView, isVisible]);
 
     const transitionStyle = {
-        transition: 'opacity 0.5s ease-in-out',
+        transition: 'opacity 0.4s ease-in-out',
         opacity: isVisible ? 1 : 0,
     };
 
