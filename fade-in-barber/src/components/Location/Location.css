@@ -41,3 +41,25 @@ a {
     color: goldenrod;
     font-size: 24px;
 }
+
+
+@media (max-width: 992px) {
+    .map-container img {
+        max-width: 80%; 
+        margin-left: 0; 
+        margin-right: auto; 
+        margin-bottom: 20px; 
+    }
+
+    .map-right-side {
+        padding: 30px; 
+    }
+
+    .map-heading {
+        font-size: 40px; 
+    }
+
+    .map-description {
+        font-size: 18px; 
+    }
+}

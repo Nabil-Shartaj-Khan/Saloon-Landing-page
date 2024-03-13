@@ -8,8 +8,11 @@
     cursor: pointer;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
+
+
 .navbar-toggler-icon {
     background-color: white;
+    border: none;
 }
 
 .navbar-brand img:hover {
