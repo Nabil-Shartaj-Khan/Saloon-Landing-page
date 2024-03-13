@@ -17,7 +17,7 @@ const ScrollAnimation = ({ children }) => {
     }, [inView, isVisible]);
 
     const transitionStyle = {
-        transition: 'transform 0.5s ease-in-out, opacity 0.5s ease-in-out',
+        transition: 'transform 0.4s ease-in-out, opacity 0.4s ease-in-out',
         transform: isVisible ? 'scale(1)' : 'scale(0.9)',
         opacity: isVisible ? 1 : 0,
     };
