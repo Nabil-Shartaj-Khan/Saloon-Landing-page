@@ -50,7 +50,7 @@ const Service = () => {
                     </div>
                     {/* fourth card end */}
                 </div>
-                <span className="text-white fs-1 display-2">Like what you see? Go through our <button className="btn btn-outline-dark text-white p-3 fs-5 ms-2" onClick={() => { alert("Redirect to Catalogue page") }}>Catalogue now!</button></span>
+                <span className="text-white lead fs-1 display-2">Like what you see? Go through our <button className="btn btn-outline-warning text-white p-3 fs-5 ms-2" onClick={() => { alert("Redirect to Catalogue page") }}>Catalogue now!</button></span>
             </div>
         </div>
     );
