@@ -91,10 +91,10 @@ video {
 
 @media only screen and (max-width: 480px) {
   .intro-title {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .intro-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
