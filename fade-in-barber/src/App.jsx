@@ -1,30 +1,36 @@
-import { useState } from 'react'
-
-import './App.css'
-import Header from './components/Header/Header'
-import Intro from './components/Intro/Intro'
-import About from './components/About/About'
-import Service from './components/Service/Service'
-import Team from './components/Team/Team'
-import Testimonial from './components/Testimonial/Testimonial'
-import Location from './components/Location/Location'
-import Footer from './components/Footer/Footer'
+import React from 'react';
+import './App.css';
+import Header from './components/Header/Header';
+import Intro from './components/Intro/Intro';
+import About from './components/About/About';
+import Service from './components/Service/Service';
+import Team from './components/Team/Team';
+import Testimonial from './components/Testimonial/Testimonial';
+import Location from './components/Location/Location';
+import Footer from './components/Footer/Footer';
+import ScrollAnimation from './components/Animation/Animation';
 
 function App() {
-
-
   return (
     <>
       <Header />
       <Intro />
-      <About />
-      <Service />
-      <Team />
+      <ScrollAnimation>
+        <About />
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <Service />
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <Team />
+      </ScrollAnimation>
       <Testimonial />
-      <Location />
+      <ScrollAnimation>
+        <Location />
+      </ScrollAnimation>
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
