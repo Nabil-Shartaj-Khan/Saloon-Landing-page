@@ -30,7 +30,9 @@ const Testimonial = () => {
                     <hr />
                     <span style={{ color: 'goldenrod', fontWeight: 'bold' }}>Deckard Shaw</span>
                 </div>
+
             </div>
+
         </div>
     );
 }

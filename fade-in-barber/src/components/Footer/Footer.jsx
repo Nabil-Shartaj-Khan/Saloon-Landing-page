@@ -4,7 +4,9 @@ import logo from '../../assets/images/logo.jpg';
 const Footer = () => {
     return (
         <footer className="text-light py-4">
+
             <div className="footer-container">
+                <hr></hr>
                 <div className="row">
                     <div className="col-md-4 mb-3">
                         <div className="d-flex flex-column">
@@ -17,10 +19,10 @@ const Footer = () => {
                     <div className="col-md-4 mb-3">
                         <div className="d-flex flex-column">
                             <p className='fs-4'>Follow us on our socials!</p>
-                            <div className="d-flex flex-wrap"> {/* Added flex-wrap class for small screens */}
-                                <a href="#" className="me-3 mb-2" style={{ textDecoration: 'none' }}>Facebook</a> {/* Added margin classes */}
-                                <a href="#" className="me-3 mb-2" style={{ textDecoration: 'none' }}>Instagram</a> {/* Added margin classes */}
-                                <a href="#" className="me-3 mb-2" style={{ textDecoration: 'none' }}>Twitter</a> {/* Added margin classes */}
+                            <div className="d-flex flex-wrap">
+                                <a href="#" className="me-3 mb-2" style={{ textDecoration: 'none' }}>Facebook</a>
+                                <a href="#" className="me-3 mb-2" style={{ textDecoration: 'none' }}>Instagram</a>
+                                <a href="#" className="me-3 mb-2" style={{ textDecoration: 'none' }}>Twitter</a>
                             </div>
                         </div>
                     </div>
@@ -32,9 +34,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <hr className="bg-light" />
             </div>
 
-            <hr className="bg-light" />
 
             <div className="text-center">
                 <p className='fs-5'>Nabil Shartaj Khan &copy; All Rights Reserved  2024</p>

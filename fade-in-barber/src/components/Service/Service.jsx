@@ -46,6 +46,7 @@ const Service = () => {
                         <div className="card-body">
                             <h5 className="card-title fs-4">Stylish haircut</h5>
                             <p className="card-text">Refine your look with our expert styling. From timeless classics to the latest trends, our personalized hairstyles exude elegance and style. Visit our barbershop to begin your journey to confidence and refinement.</p>
+                            
                         </div>
                     </div>
                     {/* fourth card end */}

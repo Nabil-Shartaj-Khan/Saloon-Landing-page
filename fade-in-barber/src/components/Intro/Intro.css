@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/bignoodletitling');
 .intro-section {
   position: relative;
   width: 100%;
@@ -17,7 +18,7 @@ video {
 }
 
 .text-overlay {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'BigNoodleTitling', Times, serif;
   font-style: normal;
   position: absolute;
   top: 50%;
@@ -29,7 +30,7 @@ video {
 }
 
 .intro-title {
-  font-size: 100px;
+  font-size: 140px;
   font-weight: bold;
   color: goldenrod;
   opacity: 0;
@@ -37,9 +38,9 @@ video {
 }
 
 .intro-text {
-  font-family: "Lato", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   padding-top: 20px;
-  font-size: 24px;
+  font-size: 25px;
   overflow: hidden;
   white-space: nowrap;
   animation: typingEffect 3s steps(40) forwards;

@@ -1,7 +1,7 @@
 .second-service-title {
     color: goldenrod;
-    font-family: "Raleway", sans-serif;
-    font-size: 50px;
+    font-family: "BigNoodleTitling", sans-serif;
+    font-size: 70px;
     font-weight: bold;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .card-title {
-    font-family: "Lato", sans-serif;
+    font-family: "BigNoodleTitling", sans-serif;
     padding-bottom: 20px;
 }
 

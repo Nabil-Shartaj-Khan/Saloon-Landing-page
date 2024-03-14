@@ -18,6 +18,7 @@ const Team = () => {
                             <h5 className="team-card-title py-2 text-dark">Random James</h5>
                             <p className="team-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
+                        <button className='btn btn-dark p-2 mb-3 fw-light fst-italic'>Book Appointment</button>
                     </div>
                     {/* first member end */}
                     {/* second member */}
@@ -27,6 +28,7 @@ const Team = () => {
                             <h5 className="team-card-title py-2 text-dark">Random Gabriel</h5>
                             <p className="team-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
+                        <button className='btn btn-dark p-2 mb-3 fw-light fst-italic'>Book Appointment</button>
                     </div>
                     {/* second member end */}
                     {/* third member */}
@@ -35,7 +37,9 @@ const Team = () => {
                         <div className="team-card-body">
                             <h5 className="team-card-title py-2 text-dark">Random Michael</h5>
                             <p className="team-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
                         </div>
+                        <button className='btn btn-dark p-2 mb-3 fw-light fst-italic'>Book Appointment</button>
                     </div>
                     {/* third member end */}
                 </div>
