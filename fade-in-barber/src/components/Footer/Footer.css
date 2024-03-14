@@ -26,6 +26,8 @@ footer {
 }
 
 .footer-container a {
+    color: goldenrod;
+    font-size: 21px;
     transition: transform 0.4s ease;
 }
 

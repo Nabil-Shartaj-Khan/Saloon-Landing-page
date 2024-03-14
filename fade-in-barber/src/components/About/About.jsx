@@ -1,18 +1,33 @@
+import React from 'react';
 import './About.css';
-import collage from '../../assets/images/collage.jpg';
+import kid from '../../assets/images/kid.jpg';
+import facility from '../../assets/images/facility.jpeg';
+import beard from '../../assets/images/beards.jpg';
+import personal from '../../assets/images/personal.jpeg';
+import hehe from '../../assets/images/2.jpg';
+import idk from '../../assets/images/3.jpg';
+
+const services = [
+  { image: kid, title: 'Our services', description: 'Discover premier grooming services tailored to elevate your style.' },
+  { image: facility, title: 'Book Appointment', description: 'Simplify your grooming routine – book your appointment effortlessly today.' },
+  { image: beard, title: 'Beard treatment', description: 'Elevate your beard game with our specialized beard treatments, crafted for a distinguished and groomed look.' },
+  { image: personal, title: 'Scalp treatments', description: 'Nourish your scalp and promote healthy hair growth with our revitalizing scalp treatments.' },
+  { image: hehe, title: 'Hair coloring', description: 'Revitalize your hair with our professional coloring services, tailored to match your style and personality.' },
+  { image: idk, title: 'Loyalty programme', description: 'Unlock exclusive benefits and rewards with our loyalty program, designed to show appreciation for our valued customers.' }
+];
 
 const About = () => {
   return (
-    <div className="container d-flex flex-row justify-content-evenly">
-      <div>
-        <img src={collage} alt="Collage of haircuts" />
-      </div>
-      <div className='right-side'>
-        <div><p className="about-title">Know About us</p></div>
-        <div><h4 className='about-heading py-4'>Experienced with haircut for about 20 years!</h4></div>
-        <div><p className='about-description pt-3'>Our objective is to offer exceptional grooming services in a welcoming environment, ensuring every customer leaves satisfied and looking their best. Through continuous improvement and community engagement, we aim to build trust and loyalty while prioritizing health and safety. Ultimately, we're here to boost our customers' confidence and wellbeing.</p>
-          <button className='btn btn-dark p-3 mt-1' onClick={() => { alert("Redirect to about us page!") }}>Read more...</button></div>
-      </div>
+    <div className="grid-container">
+      {services.map((service, index) => (
+        <div className="grid-item" key={index} onClick={() => alert("Hehe")}>
+          <img src={service.image} alt={service.title} className="about-image" />
+          <div className="overlay">
+            <h2>{service.title}</h2>
+            <p>{service.description}</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

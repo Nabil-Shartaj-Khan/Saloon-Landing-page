@@ -1,67 +1,102 @@
-.map-container {
-    margin-top: 100px;
+.container {
+    color: white;
     display: flex;
-    flex-direction: row;
-    align-items: start;
-    margin-bottom: 40px;
-
+    justify-content: space-around;
+    max-width: 60%;
+    padding-top: 0;
 }
 
-.map-container img {
-    max-width: 1000px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 20px;
+.flex-it {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 }
 
-.map-right-side {
-    flex: 1;
-    padding: 50px;
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-.map-heading {
-    font-size: 70px;
-    color: goldenrod;
-    font-family: 'BigNoodleTitling', sans-serif;
+.icon {
+    width: 30px;
+    margin-right: 10px;
 }
 
-.map-title {
+.contact-details {
+    display: flex;
+    flex-direction: column;
+}
+.contact-details span {
+
     font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+}
+
+.contact-details div {
+    margin-bottom: 5px;
+}
+
+.business-hours {
+    margin-top: 20px;
+    color: white;
+}
+
+.business-hours span {
     font-weight: bold;
-}
-
-.map-description {
     font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-}
-
-.btn {
-    font-size: 18px;
-}
-
-a {
+    font-family: "Montserrat",sans-serif;
     color: goldenrod;
-    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
 }
 
+.business-hours div {
+    margin-left: 30px;
+}
 
-@media (max-width: 992px) {
-    .map-container img {
-        max-width: 80%; 
-        margin-left: 0; 
-        margin-right: auto; 
-        margin-bottom: 20px; 
+.business-hours div div {
+    margin-top: 5px;
+}
+
+.contact h3{
+    padding-top: 140px;
+    padding-left: 100px;
+    font-family: 'Teko',sans-serif;
+    color: goldenrod;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.google-map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-map {
+    padding-right:20px;
+    width: 100%; 
+    max-width: 800px; 
+    height: 500px; 
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
     }
 
-    .map-right-side {
-        padding: 30px; 
+    .flex-it {
+        flex-direction: column;
     }
 
-    .map-heading {
-        font-size: 40px; 
+    .contact h3 {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 40px;
     }
 
-    .map-description {
-        font-size: 18px; 
+    .google-map {
+        height: 300px;
     }
 }

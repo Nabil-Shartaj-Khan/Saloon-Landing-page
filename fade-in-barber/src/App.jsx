@@ -13,14 +13,15 @@ import ScrollAnimation from './components/Animation/Animation';
 function App() {
   return (
     <>
+
       <Header />
       <Intro />
       <ScrollAnimation>
-        <About />
+        <Team />
       </ScrollAnimation>
       <Service />
       <ScrollAnimation>
-        <Team />
+        <About />
       </ScrollAnimation>
       <Testimonial />
       <ScrollAnimation>

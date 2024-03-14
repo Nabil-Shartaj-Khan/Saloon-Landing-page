@@ -1,20 +1,57 @@
-import './Location.css';
-import location from '../../assets/images/location.jpg';
+import React from 'react';
 
+import phoneIcon from '../../assets/images/phone-icon.jpg';
+import addressIcon from '../../assets/images/address-icon.jpg';
+import './Location.css';
 
 const Location = () => {
     return (
-        <div className="map-container d-flex flex-column flex-md-row justify-content-evenly align-items-center">
-            <div>
-                <img src={location} alt="Location" className="img-fluid" />
+        <div className='contact'>
+            <h3>Get in Touch - Let's Make Your Vision a Reality!</h3>
+            <div className="container">
+
+                <div className='flex-it'>
+                    <div className="contact-info">
+                        <img className="icon" src={phoneIcon} alt="phone" />
+                        <div className="contact-details">
+                            <div><span style={{ color: "goldenrod" }}>Phone:</span></div>
+                            <div><span >+61450797980</span></div>
+                        </div>
+                    </div>
+                    <div className="contact-info">
+                        <img className="icon" src={addressIcon} alt="address" />
+                        <div className="contact-details">
+                            <div><span style={{ color: "goldenrod" }}>Address:</span></div>
+                            <div><span>Unit 5/613 Hume Hwy, Casula NSW 2170, Australia</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="business-hours">
+                    <span>Business Hours:</span>
+                    <div>
+                        <div className='fs-5'><b className='pe-1'>Friday : </b> 9:30 AM – 6:30PM</div>
+                        <div className='fs-5'><b className='pe-1'>Saturday : </b> 9:30 AM – 5:00PM</div>
+                        <div className='fs-5'><b className='pe-1'>Sunday :</b> 9:30 AM – 4:00PM</div>
+                        <div className='fs-5'><b className='pe-1'>Monday :</b> 9:30 AM – 6:00PM</div>
+                        <div className='fs-5'><b className='pe-1'>Tuesday :</b> 9:30 AM – 6:00PM</div>
+                        <div className='fs-5'><b className='pe-1'>Wednesday :</b> 9:30 AM – 6:00PM</div>
+                        <div className='fs-5'><b className='pe-1'>Thursday :</b> 9:30 AM – 8:00PM</div>
+                    </div>
+                </div>
             </div>
-            <div className='map-right-side'>
-                <div><h4 className='map-heading py-4'>We are located in!</h4></div>
-
-                <div><p className='map-description pt-3 text-white'><b>Find us at</b>: Unit 5/613 Hume Hwy, Casula NSW 2170, Australia</p></div>
-                <div><p className='map-description pt-3 text-white'><b>Call us on :</b>  +61450797980</p></div>
-                <div><p className="map-title text-white">Find out more from  our <a href='https://maps.app.goo.gl/pd7Qf6wWMEVzuNru6' target='_blank' rel='noopener noreferrer'>Google map location</a></p></div>
-
+            <div className='google-map-container pt-4'>
+                <div className='google-map'>
+                    <iframe
+                        title="Google Map"
+                        width="100%"
+                        height="500"
+                        frameBorder="0"
+                        scrolling="no"
+                        marginHeight="0"
+                        marginWidth="0"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=Unit%205/613%20Hume%20Hwy,%20Casula%20NSW%202170,%20Australia+(Fade%20In%20Barber%20Shop)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    ></iframe>
+                </div>
             </div>
         </div>
     );

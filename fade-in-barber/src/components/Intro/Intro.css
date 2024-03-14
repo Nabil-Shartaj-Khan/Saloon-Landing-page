@@ -1,4 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/bignoodletitling');
+
+
 .intro-section {
   position: relative;
   width: 100%;
@@ -14,12 +15,11 @@ video {
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  opacity: 0.15;
+  opacity: 0.2;
 }
 
 .text-overlay {
-  font-family: 'BigNoodleTitling', Times, serif;
-  font-style: normal;
+  font-family: 'Teko', Times, serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -29,85 +29,43 @@ video {
   z-index: 1;
 }
 
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .intro-title {
-  font-size: 140px;
-  font-weight: bold;
+  font-size: 4vw;
   color: goldenrod;
-  animation: fadeInTitle 2s ease forwards, blink 1.5s infinite;
+  margin-bottom: 20px;
+}
+.intro-title-second {
+  font-size: 3vw;
+  color: goldenrod;
+  margin-bottom: 20px;
 }
 
-.intro-text {
-  font-family: 'Montserrat', Times, serif;
-  padding-top: 20px;
-  font-size: 25px;
-  font-style: oblique;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typingEffect 3s steps(40) forwards;
+.intro-button {
+  padding: 20px 15px 20px 15px;
+  font-size: 21px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border: 0.3vw solid goldenrod;
+  background-color: inherit;
+  transition: background-color 0.4s ease;
+  font-weight: bold;
 }
 
-@keyframes fadeInTitle {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.intro-button:hover {
+  background-color: goldenrod;
 }
 
-@keyframes typingEffect {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .text-overlay {
-    transform: translate(-50%, -50%);
-  }
-
+@media screen and (max-width: 768px) {
   .intro-title {
-    font-size: 55px;
+    font-size: 8vw;
+  }
+  .intro-title-second {
+    font-size: 6vw;
   }
 
-  .intro-text {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 576px) {
-  .intro-title {
-    font-size: 45px;
-  }
-
-  .intro-text {
-    font-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .intro-title {
-    font-size: 30px;
-  }
-
-  .intro-text {
-    font-size: 12px;
+  .intro-button {
+    padding: 2vw 10vw;
+    font-size: 3vw;
+    border-width: 0.5vw;
   }
 }

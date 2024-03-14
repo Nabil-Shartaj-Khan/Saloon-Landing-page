@@ -1,7 +1,25 @@
+.menu-container .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 210px;
+}
+
 .second-service-title {
+    padding-top: 40px;
     color: goldenrod;
-    font-family: "BigNoodleTitling", sans-serif;
+    font-family: "Teko", sans-serif;
     font-size: 70px;
+    font-weight: bold;
+}
+
+.third-service-title {
+    color: white;
+    font-family: "Teko", sans-serif;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -15,7 +33,7 @@
     padding-top: 30px;
     padding-bottom: 15px;
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .card:hover {
@@ -28,7 +46,7 @@
 }
 
 .card-title {
-    font-family: "BigNoodleTitling", sans-serif;
+    font-family: "Teko", sans-serif;
     padding-bottom: 20px;
 }
 
@@ -53,7 +71,22 @@
 }
 
 @media (max-width: 576px) {
-    .second-service-title {
-        font-size: 40px;
+    .card {
+        width: calc(100% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .service-box {
+        padding-bottom: 40px;
     }
 }
+
