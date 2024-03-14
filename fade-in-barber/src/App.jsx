@@ -26,7 +26,10 @@ function App() {
       <ScrollAnimation>
         <Location />
       </ScrollAnimation>
-      <Footer />
+      <ScrollAnimation>
+        <Footer />
+      </ScrollAnimation>
+
     </>
   );
 }

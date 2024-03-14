@@ -49,9 +49,10 @@ video {
 }
 
 .intro-text {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', Times, serif;
   padding-top: 20px;
-  font-size: 30px;
+  font-size: 25px;
+  font-style: oblique;
   overflow: hidden;
   white-space: nowrap;
   animation: typingEffect 3s steps(40) forwards;
