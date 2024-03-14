@@ -7,7 +7,7 @@ const Footer = () => {
 
             <div className="footer-container">
                 <hr></hr>
-                <div className="row">
+                <div className="row py-5">
                     <div className="col-md-4 mb-3">
                         <div className="d-flex flex-column">
                             <img src={logo} alt="Company Logo" className="mb-2" style={{ maxWidth: '200px' }} />
@@ -39,7 +39,7 @@ const Footer = () => {
 
 
             <div className="text-center">
-                <p className='fs-5'>Nabil Shartaj Khan &copy; All Rights Reserved  2024</p>
+                <p className='fs-5 py-3'>Nabil Shartaj Khan &copy; All Rights Reserved  2024</p>
             </div>
         </footer>
     );

@@ -10,9 +10,9 @@ const Team = () => {
             <div className="text-center">
                 <p className="second-service-title">Meet our artists!</p>
                 <p className="text-white fs-3 fw-bold">Our team working for you</p>
-                <div className="container pt-5 d-flex justify-content-around flex-wrap"> {/* Added flex-wrap class for responsiveness */}
+                <div className="container pt-5 d-flex justify-content-around flex-wrap">
                     {/* first member */}
-                    <div className="team-card mb-4" style={{ width: '18rem' }}> {/* Added mb-4 class for margin bottom */}
+                    <div className="team-card mb-4" style={{ width: '18rem' }}>
                         <img className="team-card-img-top" src={one} alt="Card image cap" />
                         <div className="team-card-body">
                             <h5 className="team-card-title py-2 text-dark">Random James</h5>
