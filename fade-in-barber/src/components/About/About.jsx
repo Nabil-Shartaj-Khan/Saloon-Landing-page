@@ -26,9 +26,13 @@ const About = () => {
             <h2>{service.title}</h2>
             <p>{service.description}</p>
           </div>
+          <div className="initial-text">
+            <p className='initial-text-p'>{service.title}</p>
+          </div>
         </div>
-      ))}
-    </div>
+      ))
+      }
+    </div >
   );
 }
 

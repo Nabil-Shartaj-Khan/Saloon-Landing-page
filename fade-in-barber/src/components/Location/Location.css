@@ -75,9 +75,9 @@
 }
 
 .google-map {
-    padding-right:20px;
+    padding-top: 25px;
     width: 100%; 
-    max-width: 800px; 
+    max-width: 1000px; 
     height: 500px; 
 }
 

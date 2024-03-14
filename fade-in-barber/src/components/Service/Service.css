@@ -70,23 +70,14 @@
     z-index: -1;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+    .menu-container .container {
+        flex-direction: column; 
+    }
+    
     .card {
-        width: calc(100% - 20px);
-        margin-bottom: 20px;
-    }
-
-    .card-body {
-        padding: 20px;
-    }
-
-    .card-title {
-        font-size: 20px;
-        padding-bottom: 10px;
-    }
-
-    .service-box {
-        padding-bottom: 40px;
+        width: 100%; 
+        margin-bottom: 15px; 
     }
 }
 
