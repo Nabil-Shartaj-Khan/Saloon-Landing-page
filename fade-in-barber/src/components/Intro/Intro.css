@@ -29,18 +29,29 @@ video {
   z-index: 1;
 }
 
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .intro-title {
   font-size: 140px;
   font-weight: bold;
   color: goldenrod;
-  opacity: 0;
-  animation: fadeInTitle 2s ease forwards;
+  animation: fadeInTitle 2s ease forwards, blink 1.5s infinite;
 }
 
 .intro-text {
   font-family: 'Times New Roman', Times, serif;
   padding-top: 20px;
-  font-size: 25px;
+  font-size: 30px;
   overflow: hidden;
   white-space: nowrap;
   animation: typingEffect 3s steps(40) forwards;
