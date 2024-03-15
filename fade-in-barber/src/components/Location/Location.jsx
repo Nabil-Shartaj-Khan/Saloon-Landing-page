@@ -42,14 +42,14 @@ const Location = () => {
             <div className='google-map-container pt-4'>
                 <div className='google-map'>
                     <iframe
-                        title="Google Map"
-                        width="100%"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.4625236682214!2d150.89549010000002!3d-33.9549495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1295d116196711%3A0x69417ae62c5498ad!2sFade%20In%20Barber%20Shop!5e0!3m2!1sen!2sbd!4v1710509686808!5m2!1sen!2sbd"
+                        width="1000"
                         height="500"
-                        frameBorder="0"
-                        scrolling="no"
-                        marginHeight="0"
-                        marginWidth="0"
-                        src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=Unit%205/613%20Hume%20Hwy,%20Casula%20NSW%202170,%20Australia+(Fade%20In%20Barber%20Shop)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        style={{ border: 0 }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        title="Google Map"
+                        referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                 </div>
             </div>
