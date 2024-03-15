@@ -70,8 +70,7 @@
     border-top: 3px solid white; 
 }
 
-
-@media only screen and (max-width: 768px) and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-width: 768px) {
     .test-title {
         font-size: 40px;
     }

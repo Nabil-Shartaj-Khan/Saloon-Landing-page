@@ -18,21 +18,24 @@ const services = [
 
 const About = () => {
   return (
-    <div className="grid-container">
-      {services.map((service, index) => (
-        <div className="grid-item" key={index} onClick={() => alert("Hehe")}>
-          <img src={service.image} alt={service.title} className="about-image" />
-          <div className="overlay">
-            <h2>{service.title}</h2>
-            <p>{service.description}</p>
+    <div>
+      <h1 className='grid-header'>Grooming Oasis :<span className='text-white'> Discover Services! </span></h1>
+      <div className="grid-container">
+        {services.map((service, index) => (
+          <div className="grid-item" key={index} onClick={() => alert("Hehe")}>
+            <img src={service.image} alt={service.title} className="about-image" />
+            <div className="overlay">
+              <h2>{service.title}</h2>
+              <p>{service.description}</p>
+            </div>
+            <div className="initial-text">
+              <p className='initial-text-p'>{service.title}</p>
+            </div>
           </div>
-          <div className="initial-text">
-            <p className='initial-text-p'>{service.title}</p>
-          </div>
-        </div>
-      ))
-      }
-    </div >
+        ))
+        }
+      </div >
+    </div>
   );
 }
 

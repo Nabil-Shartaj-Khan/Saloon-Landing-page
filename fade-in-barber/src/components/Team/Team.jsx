@@ -6,13 +6,15 @@ import beard from '../../assets/images/beards.jpg';
 import personal from '../../assets/images/personal.jpeg';
 import hehe from '../../assets/images/2.jpg';
 import idk from '../../assets/images/3.jpg';
+import kid from '../../assets/images/kid.jpg';
 
 const Team = () => {
     const slides = [
         { image: personal, caption: "Expertise", text: "Experienced professionals crafting personalized styles to perfection." },
-        { image: hehe, caption: "Personalized Service ", text: "Tailored grooming experiences, just for you." },
+        { image: hehe, caption: "Personalized Service", text: "Tailored grooming experiences, just for you." },
         { image: idk, caption: "Exceptional Atmosphere", text: "Indulge in our inviting ambiance for an exceptional grooming experience." },
         { image: beard, caption: "Quality Craftsmanship", text: "Elevating your look with meticulous attention to detail." },
+        { image: kid, caption: "Luxurious Treatments", text: "Fun and gentle grooming experiences designed specifically for our younger clients." }
     ];
 
     return (

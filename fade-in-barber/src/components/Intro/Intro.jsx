@@ -12,8 +12,8 @@ const Intro = () => {
                 Your browser does not support the video tag.
             </video>
             <div className="text-overlay">
-                <h1 className="intro-title text-white">Your hairstyle speaks volumes about who you are</h1>
-                <h1 className="intro-title-second pt-1">make it count , with us</h1>
+                <h1 className="intro-title-second pt-1">Fade'in Barbershop</h1>
+                <h1 className="intro-title text-white">Crafting Confidence, One Cut.</h1>
                 <button className='intro-button mt-4' onClick={() => { alert("Redirect to contact or appointment page") }}>Book appointment!</button>
             </div>
         </div>
