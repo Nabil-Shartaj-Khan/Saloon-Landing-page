@@ -46,7 +46,7 @@ const Service = () => {
                         </div>
                     ))}
                 </div>
-                <span className="text-white lead fs-1 display-2">Like what you see? Go through our <button className="intro-button fs-3" onClick={() => { alert("Redirect to Catalogue page") }}>Catalogue now!</button></span>
+                <span className="text-white like-span ">Like what you see? Go through our <button className="intro-button fs-3" onClick={() => { alert("Redirect to Catalogue page") }}>Catalogue now!</button></span>
             </div>
         </div>
     );
