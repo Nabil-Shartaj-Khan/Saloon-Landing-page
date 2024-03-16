@@ -33,8 +33,8 @@ const Service = () => {
         <div className="menu-container">
             <div className="image-background"></div>
             <div className="service-box text-center">
-                <p className="second-service-title">Exceptional services</p>
-                <p className='third-service-title'>In an exceptional manner</p>
+                <p className="second-service-title">Outstanding services</p>
+                <p className='third-service-title'>In an outstanding manner</p>
                 <div className="container pt-1" style={{ marginTop: '100px' }}>
                     {services.map((service, index) => (
                         <div className="card d-flex align-items-center justify-content-center shadow-lg mb-4 me-md-5 me-0" key={index}>
@@ -46,7 +46,7 @@ const Service = () => {
                         </div>
                     ))}
                 </div>
-                <span className="text-white like-span ">Like what you see? Go through our <button className="intro-button fs-3" onClick={() => { alert("Redirect to Catalogue page") }}>Catalogue now!</button></span>
+                <span className="text-white like-span ">Like what you see? Go through our <button className="intro-button fs-5" onClick={() => { alert("Redirect to Catalogue page") }}>Catalogue now!</button></span>
             </div>
         </div>
     );

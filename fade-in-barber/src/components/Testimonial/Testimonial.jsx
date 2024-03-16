@@ -6,7 +6,7 @@ const Testimonial = () => {
         <div className="testimonial-container">
             <div className="background-image"></div>
             <div className="testimonial-content">
-                <h1 className='test-title pt-5 ps-3'>Discover What Sets Us Apart</h1>
+                <h1 className='test-title pt-5 ps-3'>Raving Reviews: Client Testimonials</h1>
                 <p className='test-paragraph pt-4 ps-3 fs-4 '>
                     "Elevating experiences, exceeding expectations, one satisfied customer at a time."</p>
             </div>

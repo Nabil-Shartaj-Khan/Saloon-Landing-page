@@ -1,0 +1,48 @@
+.book-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 230px;
+    margin-top: 65px;
+    background-color: rgb(17, 17, 17);
+  }
+  
+  .book-container {
+    text-align: center;
+
+  }
+  
+  .content {
+    margin-bottom: 20px; 
+  }
+  
+  .book-container h1 {
+    font-family: 'Teko', Times, serif;
+    color: goldenrod;
+    font-size: 4vw;
+    
+  }
+  
+  .book-container span {
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    font-size: 2vw;
+ 
+  }
+  
+  .book-container button {
+    padding: 20px 15px 20px 15px;
+    font-size: 21px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border: 0.2vw solid goldenrod;
+    background-color: goldenrod;
+    transition: background-color 0.4s ease;
+    font-weight: bold;   
+    margin-top: 20px; 
+  }
+  .book-container button:hover{
+
+    background-color: inherit;
+  }
