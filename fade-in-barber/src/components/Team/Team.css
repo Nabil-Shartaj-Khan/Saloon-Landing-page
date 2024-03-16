@@ -43,7 +43,8 @@
 }
 
 .car-container .first-title {
-    font-size: 90px;
+    font-size: 80px;
+    margin-top: 35px;
     color: goldenrod;
     font-family: 'Teko', Times, serif;
 }
