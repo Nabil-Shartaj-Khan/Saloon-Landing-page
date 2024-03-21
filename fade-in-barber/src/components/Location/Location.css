@@ -1,4 +1,4 @@
-.container {
+.location-container {
     color: white;
     display: flex;
     justify-content: space-around;
@@ -77,12 +77,11 @@
 .google-map {
     padding-top: 25px;
     width: 100%; 
-    max-width: 1000px; 
+    max-width: 1000px; /* Set a maximum width */
     height: 500px; 
 }
 
 @media screen and (max-width: 768px) {
-    
     .container {
         max-width: 90%;
     }
@@ -99,5 +98,28 @@
 
     .google-map {
         height: 300px;
+        max-width: 90%; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .flex-it {
+        flex-direction: column;
+    }
+
+    .contact h3 {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 40px;
+    }
+
+    .google-map {
+        height: 300px;
+        max-width: 90%; 
+        overflow-x: hidden; 
     }
 }
