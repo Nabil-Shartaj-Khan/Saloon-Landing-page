@@ -1,4 +1,3 @@
-
 .testimonial-container {
     position: relative;
     padding-bottom: 40px;
@@ -70,6 +69,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .testimonial-container .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-item {
+        margin-bottom: 30px;
+    }
+    
     .test-title {
         font-size: 40px;
     }
